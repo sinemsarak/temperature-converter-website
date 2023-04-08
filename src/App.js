@@ -54,14 +54,14 @@ function App() {
               <Container style={{ color: " #003366", fontWeight: "bold" }}>
                 <Row>
                   <Col>
-                    <h2>Hava Sıcaklığı:</h2>
+                    <h2>Temperature Converter Site</h2>
                     <br />
                   </Col>
                 </Row>
                 <Row>
                   <Col>
                     <p>
-                      <label>Şu an sıcaklık</label> {"  "}
+                      <label>Temperature: </label> {"  "}
                       <input
                         id="girdi"
                         value={deger}
@@ -77,7 +77,6 @@ function App() {
                         }}
                       />
                       {"  "}
-                      <label>derece</label>
                     </p>
                   </Col>
                 </Row>
@@ -91,7 +90,7 @@ function App() {
                       onClick={() => setDeger(degernumber + 1)}
                     >
                       {" "}
-                      Sıcaklığı 1 derece arttır
+                      Increase temperature 1 degree
                     </Button>
                   </Col>
                   <Col xs="4">
@@ -103,7 +102,7 @@ function App() {
                       onClick={() => setDeger(degernumber - 1)}
                     >
                       {" "}
-                      Sıcaklığı 1 derece azalt
+                      Decrease temperature 1 degree
                     </Button>{" "}
                     <br></br> <br></br>
                   </Col>
