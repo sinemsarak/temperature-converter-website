@@ -70,7 +70,7 @@ function App() {
                         style={{
                           backgroundColor: "transparent",
                           color: "white",
-                          width: "40px",
+                          width: "70px",
                           borderStyle: "solid",
                           borderColor: "black",
                           textAlign: "center"
