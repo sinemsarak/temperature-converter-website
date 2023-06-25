@@ -13,6 +13,7 @@ function App() {
   const degernumber = Number(deger);
   return (
     <div
+   
       style={{
         justifyContent: "center",
         alignItems: "center",
